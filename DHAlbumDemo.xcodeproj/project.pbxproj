@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A8B54A2D9EBC5E6E6D6F2D2 /* libPods-DHAlbumDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D119FAD5DC3A9B5710EA3D6E /* libPods-DHAlbumDemo.a */; };
 		6B852DB8231F9CD6009903C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DB7231F9CD6009903C0 /* AppDelegate.swift */; };
 		6B852DBA231F9CD7009903C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DB9231F9CD7009903C0 /* ViewController.swift */; };
 		6B852DBD231F9CD7009903C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B852DBB231F9CD7009903C0 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		6B852DC2231F9D0C009903C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B852DC0231F9D0C009903C0 /* LaunchScreen.storyboard */; };
 		6B852DCD231F9D0E009903C0 /* DHAlbumDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DCC231F9D0E009903C0 /* DHAlbumDemoTests.swift */; };
 		6B852DD8231F9D0E009903C0 /* DHAlbumDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DD7231F9D0E009903C0 /* DHAlbumDemoUITests.swift */; };
+		6B852DEB231FA3D6009903C0 /* DHAlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DE6231FA3D6009903C0 /* DHAlbumModel.swift */; };
+		6B852DEC231FA3D6009903C0 /* DHAlbumViewController+Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DE7231FA3D6009903C0 /* DHAlbumViewController+Zoom.swift */; };
+		6B852DED231FA3D6009903C0 /* DHZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DE8231FA3D6009903C0 /* DHZoomImageView.swift */; };
+		6B852DEE231FA3D6009903C0 /* DHAlbumViewController+GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DE9231FA3D6009903C0 /* DHAlbumViewController+GestureRecognizer.swift */; };
+		6B852DEF231FA3D6009903C0 /* DHAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DEA231FA3D6009903C0 /* DHAlbumViewController.swift */; };
+		6B852DF1231FA5EC009903C0 /* UIImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B852DF0231FA5EC009903C0 /* UIImageView+Kingfisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,15 @@
 		6B852DD3231F9D0E009903C0 /* DHAlbumDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHAlbumDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B852DD7231F9D0E009903C0 /* DHAlbumDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHAlbumDemoUITests.swift; sourceTree = "<group>"; };
 		6B852DD9231F9D0E009903C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B852DE6231FA3D6009903C0 /* DHAlbumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHAlbumModel.swift; sourceTree = "<group>"; };
+		6B852DE7231FA3D6009903C0 /* DHAlbumViewController+Zoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DHAlbumViewController+Zoom.swift"; sourceTree = "<group>"; };
+		6B852DE8231FA3D6009903C0 /* DHZoomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHZoomImageView.swift; sourceTree = "<group>"; };
+		6B852DE9231FA3D6009903C0 /* DHAlbumViewController+GestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DHAlbumViewController+GestureRecognizer.swift"; sourceTree = "<group>"; };
+		6B852DEA231FA3D6009903C0 /* DHAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHAlbumViewController.swift; sourceTree = "<group>"; };
+		6B852DF0231FA5EC009903C0 /* UIImageView+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		B20D608164FCF01A4226D4E7 /* Pods-DHAlbumDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHAlbumDemo.debug.xcconfig"; path = "Target Support Files/Pods-DHAlbumDemo/Pods-DHAlbumDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C2158ED57E2FEA62C24DAF /* Pods-DHAlbumDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHAlbumDemo.release.xcconfig"; path = "Target Support Files/Pods-DHAlbumDemo/Pods-DHAlbumDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D119FAD5DC3A9B5710EA3D6E /* libPods-DHAlbumDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHAlbumDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8B54A2D9EBC5E6E6D6F2D2 /* libPods-DHAlbumDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				6B852DCB231F9D0E009903C0 /* DHAlbumDemoTests */,
 				6B852DD6231F9D0E009903C0 /* DHAlbumDemoUITests */,
 				6B852DB5231F9CD6009903C0 /* Products */,
+				86A3440DF1DA907400B57B17 /* Pods */,
+				E5155A8B7FEA6FDABC0E531C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		6B852DB6231F9CD6009903C0 /* DHAlbumDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6B852DE5231FA3D6009903C0 /* Album */,
 				6B852DB7231F9CD6009903C0 /* AppDelegate.swift */,
 				6B852DB9231F9CD7009903C0 /* ViewController.swift */,
 				6B852DBB231F9CD7009903C0 /* Main.storyboard */,
@@ -125,6 +145,37 @@
 			path = DHAlbumDemoUITests;
 			sourceTree = "<group>";
 		};
+		6B852DE5231FA3D6009903C0 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				6B852DF0231FA5EC009903C0 /* UIImageView+Kingfisher.swift */,
+				6B852DE6231FA3D6009903C0 /* DHAlbumModel.swift */,
+				6B852DE8231FA3D6009903C0 /* DHZoomImageView.swift */,
+				6B852DEA231FA3D6009903C0 /* DHAlbumViewController.swift */,
+				6B852DE7231FA3D6009903C0 /* DHAlbumViewController+Zoom.swift */,
+				6B852DE9231FA3D6009903C0 /* DHAlbumViewController+GestureRecognizer.swift */,
+			);
+			name = Album;
+			path = "../../for DHDomo/DHShowBigImagesDemo/DHShowBigImagesDemo/Album";
+			sourceTree = "<group>";
+		};
+		86A3440DF1DA907400B57B17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B20D608164FCF01A4226D4E7 /* Pods-DHAlbumDemo.debug.xcconfig */,
+				C5C2158ED57E2FEA62C24DAF /* Pods-DHAlbumDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5155A8B7FEA6FDABC0E531C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D119FAD5DC3A9B5710EA3D6E /* libPods-DHAlbumDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B852DDC231F9D0E009903C0 /* Build configuration list for PBXNativeTarget "DHAlbumDemo" */;
 			buildPhases = (
+				92BB2C8288BABF2E5104403B /* [CP] Check Pods Manifest.lock */,
 				6B852DB0231F9CD6009903C0 /* Sources */,
 				6B852DB1231F9CD6009903C0 /* Frameworks */,
 				6B852DB2231F9CD6009903C0 /* Resources */,
@@ -251,13 +303,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92BB2C8288BABF2E5104403B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DHAlbumDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B852DB0231F9CD6009903C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B852DF1231FA5EC009903C0 /* UIImageView+Kingfisher.swift in Sources */,
 				6B852DBA231F9CD7009903C0 /* ViewController.swift in Sources */,
+				6B852DEF231FA3D6009903C0 /* DHAlbumViewController.swift in Sources */,
 				6B852DB8231F9CD6009903C0 /* AppDelegate.swift in Sources */,
+				6B852DEC231FA3D6009903C0 /* DHAlbumViewController+Zoom.swift in Sources */,
+				6B852DED231FA3D6009903C0 /* DHZoomImageView.swift in Sources */,
+				6B852DEE231FA3D6009903C0 /* DHAlbumViewController+GestureRecognizer.swift in Sources */,
+				6B852DEB231FA3D6009903C0 /* DHAlbumModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +513,11 @@
 		};
 		6B852DDD231F9D0E009903C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20D608164FCF01A4226D4E7 /* Pods-DHAlbumDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9823YP5R;
 				INFOPLIST_FILE = DHAlbumDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +532,11 @@
 		};
 		6B852DDE231F9D0E009903C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C2158ED57E2FEA62C24DAF /* Pods-DHAlbumDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9823YP5R;
 				INFOPLIST_FILE = DHAlbumDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

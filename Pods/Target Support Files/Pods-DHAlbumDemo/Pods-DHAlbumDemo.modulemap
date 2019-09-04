@@ -1,0 +1,6 @@
+module Pods_DHAlbumDemo {
+  umbrella header "Pods-DHAlbumDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
